@@ -9,7 +9,6 @@ export const Home = () => {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				//
 				"Authorization": "Bearer " + store.token
 			},
 			body: JSON.stringify({
